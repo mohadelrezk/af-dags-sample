@@ -19,7 +19,7 @@ with DAG(
 
     run_adf_pipeline = AzureDataFactoryRunPipelineOperator(
         task_id="run_adf_pipeline",
-        pipeline_name="mohamed/test-snowflake",
+        pipeline_name="testsnowflake",
     )
 
     run_adf_pipeline
