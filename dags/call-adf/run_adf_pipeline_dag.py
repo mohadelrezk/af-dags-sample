@@ -12,7 +12,7 @@ with DAG(
     default_args={
         "retries": 1,
         "retry_delay": timedelta(minutes=3),
-        "azure_data_factory_conn_id": "AZURE_DATA_FACTORY_TEST" #"airflow_datafactory", #This is a connection created on Airflow UI
+        "azure_data_factory_conn_id": "AZURE_DATA_FACTORY_TEST02"#This is a connection created on terraform as env var #"airflow_datafactory", #This is a connection created on Airflow UI
     },
     default_view="graph",
 ) as dag:
